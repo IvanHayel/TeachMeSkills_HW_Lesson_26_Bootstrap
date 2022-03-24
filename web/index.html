@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ivan Hayel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <link rel="icon" href="https://vk.com/images/icons/favicons/fav_logo_2x.ico?6">
+</head>
+<body style="background-color: #edeff0">
+
+<header class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <nav class="container-xxl" aria-label="VK">
+        <a class="navbar-brand col-2 p-0 me-2" href="#" aria-label="VK">
+            <svg class="d-block" width="50" height="50" viewBox="0 0 32 32" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 15.48C3 9.59687 3 6.65531 4.82765 4.82765C6.65531 3 9.59687 3 15.48 3H16.52C22.4031 3 25.3447 3 27.1723 4.82765C29 6.65531 29 9.59687 29 15.48V16.52C29 22.4031 29 25.3447 27.1723 27.1723C25.3447 29 22.4031 29 16.52 29H15.48C9.59687 29 6.65531 29 4.82765 27.1723C3 25.3447 3 22.4031 3 16.52V15.48Z"
+                      fill="#0077FF"/>
+                <path d="M16.8226 21.8C10.9119 21.8 7.5405 17.746 7.40002 11H10.3608C10.458 15.9514 12.6408 18.0486 14.3697 18.4811V11H17.1576V15.2703C18.8649 15.0865 20.6585 13.1405 21.2636 11H24.0516C23.5869 13.6378 21.6419 15.5838 20.2587 16.3838C21.6419 17.0324 23.8572 18.7297 24.7 21.8H21.6311C20.9719 19.7459 19.3296 18.1567 17.1576 17.9405V21.8H16.8226Z"
+                      fill="white"/>
+            </svg>
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav pt-2 py-md-0">
+                <li class="nav-item col-6 col-md-auto my-auto">
+                    <form class="d-flex" action="index.html">
+                        <input class="form-control rounded-pill"
+                               placeholder="Search"
+                               aria-label="Search"
+                               style="height: 25px; background: #edeff0 url('images/search_20.svg') no-repeat center left; background-size: 20px 20px; padding-left: 25px;">
+                    </form>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link p-2" href="#">
+                        <img src="images/notifications_28.svg" alt="Notifications">
+                        <span class="top-100 start-100 translate-middle badge rounded-pill bg-danger"
+                              style="font-size: 50%">33</span>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link p-2" aria-current="true" href="#">
+                        <img src="images/music_outline_28.svg" alt="Music">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="navbar-nav ms-md-auto">
+            <li class="nav-item col-6 col-md-auto my-auto">
+                <a class="nav-link p-2" href="#">
+                    <img src="https://vk.com/images/ecosystem_navigation_menu.svg" alt="Extensions">
+                </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto my-auto">
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://vk.com/images/camera_50.png" alt="mdo" width="32" height="32"
+                             class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">First</a></li>
+                        <li><a class="dropdown-item" href="#">Second</a></li>
+                        <li><a class="dropdown-item" href="#">Third</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container-xxl">
+    <div class="row">
+        <div class="col-2 d-flex flex-column">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/user_circle_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        My profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/newsfeed_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        News
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/message_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Messenger
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/phone_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Calls
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/users_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Friends
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/users_3_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Communities
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/picture_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Photos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/music_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Music
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/video_circle_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Videos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/gesture_play_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Clips
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/game_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Games
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/services_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Mini apps
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/money_circle_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        VK Pay
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/bookmark_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Bookmarks
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link link-dark">
+                        <img src="images/advertising_outline_20.svg" alt="MP" class="d-inline-block align-text-bottom">
+                        Ads
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+        <div class="col-2 d-flex flex-column">
+            <div class="container bg-white mt-3 p-3" style="height: 40%">
+                <img src="https://vk.com/images/camera_200.png" alt="Photo" style="height: 60%; width: 100%;">
+                <button type="button" class="btn btn-light mt-2 rounded-3"
+                        style="height: auto; width: 100%; background-color: #e6ecf1; color: #54677e; font-size: 80%;">
+                    Edit
+                </button>
+                <ul class="navbar-nav mt-0" style="width: 100%; color: #7a838f; font-size: 90%;">
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="images/history_backward_outline_20.svg" alt="MP"
+                                 class="d-inline-block align-text-bottom">
+                            Memories
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            <img src="images/money_transfer_outline_20.svg" alt="MP"
+                                 class="d-inline-block align-text-bottom">
+                            Money transfers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container bg-white mt-3 p-3" style="height: 25%">
+                <p class="text-start mt-0" style="font-size: 80%">Gifts:</p>
+                <img src="https://vk.com/sticker/4-552-96?1" class="mx-4 my-auto" alt="Gift">
+            </div>
+        </div>
+        <div class="col-8 d-flex flex-column">
+            <div class="container bg-white mt-3 p-3 fw-normal" style="height: 38%; font-size: 80%;">
+                <p class="text-start fw-bolder" style="font-size: 150%">Ivan Hayel</p>
+                <hr>
+                <div class="row h-auto">
+                    <div class="col-2">
+                        <p class="text-start">Birthday:</p>
+                    </div>
+                    <div class="col" style="color: #a1b7cb">
+                        <p class="text-start">April 21, 1999</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="text-start">Current city:</p>
+                    </div>
+                    <div class="col" style="color: #a1b7cb">
+                        <p class="text-start">Minsk</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="text-start">Institution:</p>
+                    </div>
+                    <div class="col" style="color: #a1b7cb">
+                        <p class="text-start">BSU</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="text-center fw-bold fs-6" style="color: #255786">1</div>
+                <div class="text-center fw-normal" style="color: #707a87">friend</div>
+            </div>
+            <form class="input-group my-3 justify-content-center" style="height: 8%; width: 100%;">
+                <span class="input-group-text">
+                       <img src="https://vk.com/images/camera_50.png" class="my-auto rounded-circle" alt="Profile"
+                            height="100%">
+                </span>
+                <input type="text" class="form-control" placeholder="What's new?" aria-label="Post">
+                <span class="input-group-text p-0">
+                    <button type="submit" class="btn btn-light" style="height:100%; width: 100%;">Post</button>
+                </span>
+            </form>
+            <div class="container bg-white mt-3 p-3" style="height: 15%">
+                <div class="text-center">
+                    <img src="images/newsfeed_outline_56.svg" class="text-center" alt="News">
+                    <p class="fw-normal" style="color: #a1bad6; font-size: 70%;">
+                        There are no posts here yet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
